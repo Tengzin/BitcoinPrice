@@ -15,6 +15,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     ]
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
+    let symbolArray = ["$", "R$", "$", "¥", "€", "£", "$", "Rp", "₪", "₹", "¥", "$", "kr", "$", "zł", "lei", "₽", "kr", "$", "$", "R"]
     var finalURL = ""
     
 
@@ -44,7 +45,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         finalURL = baseURL
         let params : [String : String] = ["symbol" : "BTC", "convert" : currencyArray[row]]
-        getPrice(url: finalURL, parameters: params)
+        getPrice(url: finalURL, parameters: params, row : row)
     }
     // changing text color of picker
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
@@ -52,7 +53,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
   
     //MARK: - Networking
-    func getPrice(url: String, parameters : [String : String]) {
+    func getPrice(url: String, parameters : [String : String], row : Int) {
         AF.request(url, parameters: parameters, headers: headers)
             .responseJSON { response in
 //                debugPrint(response)
@@ -60,39 +61,22 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                 case .success:
                     print("Got price data")
                     let priceJSON = JSON(response.value!)
-//                    print(priceJSON)
-                    let currency = parameters["convert"]
-                    let price = priceJSON["data"]["BTC"]["quote"][currency!]["price"].stringValue
-                    print(price)
-//                    self.updatePrice(json: priceJSON)
-                    
+                    self.updatePrice(priceJSON: priceJSON, row: row)
                 case let .failure(error):
-                print(error)
-                self.bitcoinPriceLabel.text = "Connection Issues"
+                    print(error)
+                    self.bitcoinPriceLabel.text = "Unable to connect"
                 }
         }
     }
-//    
-//    
-//    //MARK: - JSON Parsing
-//    /***************************************************************/
-//    
-//    func updatePrice(json : JSON) {
-//        
-//        if let tempResult = json["main"]["temp"].double {
-//        
-//        weatherData.temperature = Int(round(tempResult!) - 273.15)
-//        weatherData.city = json["name"].stringValue
-//        weatherData.condition = json["weather"][0]["id"].intValue
-//        weatherData.weatherIconName =    weatherData.updateWeatherIcon(condition: weatherData.condition)
-//        }
-//        
-//        updateUIWithWeatherData()
-//    }
-//    
-
-
-
-
+   
+    //MARK: - JSON Parsing
+    func updatePrice(priceJSON : JSON, row : Int) {
+        let currency = currencyArray[row]
+        let currSymbol = symbolArray[row]
+        let numPrice = Double(priceJSON["data"]["BTC"]["quote"][currency]["price"].stringValue)!
+        let price = currSymbol + String(format: "%.2f", numPrice)
+        print(price)
+        self.bitcoinPriceLabel.text = price
+    }
 }
 
