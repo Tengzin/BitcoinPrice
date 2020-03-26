@@ -16,8 +16,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     let symbolArray = ["$", "R$", "$", "¥", "€", "£", "$", "Rp", "₪", "₹", "¥", "$", "kr", "$", "zł", "lei", "₽", "kr", "$", "$", "R"]
-    let cryptoArray = ["BTC", "ETH"]
-    let cryptoIconArray = ["bitcoin", "eth"]
+    let cryptoArray = ["BTC", "ETH", "XRP", "USDT", "BCH"]
+    let cryptoIconArray = ["bitcoin", "eth", "xrp", "usdt", "bch"]
     
     var currCrypto = "BTC"
     var currCurrency = "AUD"
@@ -34,7 +34,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         currencyPicker.dataSource = self
         cryptoPicker.delegate = self
         cryptoPicker.dataSource = self
-//        cryptoIcon.image = UIImage(named: "eth")
+        let params : [String : String] = ["symbol" : currCrypto, "convert" : currCurrency]
+        getPrice(url: baseURL, parameters: params)
     }
     
     //UIPickerView delegate methods
