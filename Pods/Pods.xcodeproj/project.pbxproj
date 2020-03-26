@@ -17,21 +17,20 @@
 		17953A9CF2E354B3E69B9ABC2F367AD9 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2413E8106DE14C2A9962ABCAE9FA6 /* AFError.swift */; };
 		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E46EBA6B9468953D33210FCB4F5898 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAA4A8B413A07233A6E45DE35605DE /* SwiftyJSON-dummy.m */; };
-		38C14E2487A589D3853895A1DEDF2AB8 /* Pods-BitcoinPrice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB8B164AF01D66B3BCFA9B657AFDB /* Pods-BitcoinPrice-dummy.m */; };
+		30887B79FF16AF1890949BA487E42DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
 		4082513A35C682F2193D002C80F72B79 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972E003F8D160828B3E053A6F695E1A /* Result+Alamofire.swift */; };
 		42CDB5C986C78BBC8E5C0185F746CABF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0710C9DF092ABA843B78E54B57D42 /* SessionDelegate.swift */; };
 		44127C4B989C9CC6A90D78B66A929A5E /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AE46F8118CF627C436CA0DB3B79C3 /* AlamofireExtended.swift */; };
 		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
 		48D97BE7D5CAED273BD2341C239CC934 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B894A0BBF0A5E742081FB788AFBB08 /* RequestTaskMap.swift */; };
-		4DF188EB39E163254F230D2B278130B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
 		56EC8ED1535DAB987F3D2B71D4C05773 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711921F4882376F86056C1EB92712B0 /* HTTPHeaders.swift */; };
 		5C4A0685B5A201436AB52EF25829B333 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30C91A9BD36D073194CD28D4A3FA777 /* MultipartFormData.swift */; };
 		5D12235D061AEE7459279AAF8C348DFE /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F23945534F63D11C857EE7BF91280E /* URLEncodedFormEncoder.swift */; };
 		5D61C8ED0DDCC9F8B576B6514B19EE50 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CD0B8D343D4125B98C7DC810F4DF0 /* ParameterEncoder.swift */; };
+		6279B46DF69162A8F6F0FFFD606BBC68 /* Pods-CryptoPrice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC56424EB8CA2BE3E12135824B45AC3 /* Pods-CryptoPrice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69ACE4EEE5A8C1C618B22CC1F7B8EF01 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131F91A4D7DE09E2C50883D0BC2D5DA /* Session.swift */; };
 		6A22C46CB1EDE471794D9AB2AC10327F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938652D34B901107EB376DA44D9C02C /* Request.swift */; };
 		70517C3BAC2D6614347DEAC15299EB84 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEEB31107E999811F597AA0DAC82 /* URLConvertible+URLRequestConvertible.swift */; };
-		7A1ADB7EE02C6F1C51916A1BAFCC2CCE /* Pods-BitcoinPrice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB80B58DB89AD1033BB8E91F1DA9049 /* Pods-BitcoinPrice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B08C11BAE29B1644A7F5B2431BFC7 /* SwiftyJSON.swift */; };
 		7CF8362BA31492053F5CB165637AE117 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB99DAA26670274C7571F600A3E35AE /* NetworkReachabilityManager.swift */; };
 		92811AC5CD9A5004116AE43C4E8FD955 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00747CB2DCD06F40628BEA466049BB47 /* OperationQueue+Alamofire.swift */; };
@@ -44,6 +43,7 @@
 		BE82AE980F8C7EE28A6448959194F93A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
 		C64AF152F7928CDB59385528DB65FE19 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BD6A533D7AC55A1315EB2088830CC9 /* RedirectHandler.swift */; };
 		C7369563F6946D8984124E1A546B6425 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8184F28272950AF22C09B1779E7C9682 /* Notifications.swift */; };
+		C8EC0F9E2971EF603076589EDB5AE8D1 /* Pods-CryptoPrice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908AC1C88C53162C8D7869852AAFDB4 /* Pods-CryptoPrice-dummy.m */; };
 		CACBD166E573774FB5613C34AA6DA7A7 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9719524A4342545923CBD54AD0BCA /* EventMonitor.swift */; };
 		D6B2983389480F48F27A0704EEB5DC81 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064D4EF7BA685F08AF37FEFCD694945 /* RetryPolicy.swift */; };
 		E07BD425C4EA9ADF15DDFCDB10D0B2FB /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1FAAD9DA6B0DEDCD39117D6D73865E /* MultipartUpload.swift */; };
@@ -53,19 +53,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84657A0B25BF6FFB05AE211CC33DCC06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		B455FFBF4905EC9763BD84188775483D /* PBXContainerItemProxy */ = {
+		58E8BC2AB5CE0A00672F9639714EF601 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
 			remoteInfo = SwiftyJSON;
+		};
+		FE6F15DD00333FF81F7D497565C127AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -74,42 +74,43 @@
 		02E46EBA6B9468953D33210FCB4F5898 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		075DCE204B3A62D703E608F5DFEB1C00 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
 		0F7B1EBCD44BC82DD09F548AE2C760AE /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		162EDF068CFB641FACF90E6E6CAEBF84 /* Pods-CryptoPrice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoPrice-Info.plist"; sourceTree = "<group>"; };
 		1A9005FDF8BA29BCB56145B5E5BFF1B7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		1CF0710C9DF092ABA843B78E54B57D42 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		20B9D55D3650EB7F7E3E86B65C1F892D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2B9DA8468C950289A22CB4E33C9D0032 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		319AE46F8118CF627C436CA0DB3B79C3 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		37087DB6539BF2E75AEBF94A2597D0AE /* Pods-BitcoinPrice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinPrice-Info.plist"; sourceTree = "<group>"; };
+		34ECDDFABD5DA3DF964ADC446E98E47B /* Pods_CryptoPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoPrice.framework; path = "Pods-CryptoPrice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E57B0CF29272516BAD0D5FC7A3992B3 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		49B2413E8106DE14C2A9962ABCAE9FA6 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		49B403C9F293325E7CBEFC7D3E531535 /* Pods_BitcoinPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B4BB8B164AF01D66B3BCFA9B657AFDB /* Pods-BitcoinPrice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitcoinPrice-dummy.m"; sourceTree = "<group>"; };
+		51CC6467B256FD3FD919514C899E51E4 /* Pods-CryptoPrice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoPrice.modulemap"; sourceTree = "<group>"; };
 		535991C25250FEA5CB5A7A9CB7DF0E50 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		54E2AD6D817E5E3FC328594B8CE72A76 /* Pods-CryptoPrice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoPrice-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55F23945534F63D11C857EE7BF91280E /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		572330AB2BE73D902A230610860E602F /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B08486383467FD1DEBA1180A9C306B /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		68D8FC261CE6BDF8FCCAB225E5472C78 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
-		713A63D269D06F9D00B0915C362129D3 /* Pods-BitcoinPrice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinPrice-acknowledgements.plist"; sourceTree = "<group>"; };
+		6908AC1C88C53162C8D7869852AAFDB4 /* Pods-CryptoPrice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoPrice-dummy.m"; sourceTree = "<group>"; };
 		7652E59DBCC8A5F59AED6EFFFBDB3131 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		7923C3BFE389B5E68BB331B2D12C7CCF /* Pods-BitcoinPrice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BitcoinPrice.modulemap"; sourceTree = "<group>"; };
-		7AE6069AB4DBB8687E8CFC4FAFD423C9 /* Pods-BitcoinPrice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPrice-frameworks.sh"; sourceTree = "<group>"; };
 		7C42B5A550DADBD86DBE8473D5F49DFA /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		7EB99DAA26670274C7571F600A3E35AE /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		7F9CA33D45863C87E2174C3050DE0635 /* Pods-CryptoPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoPrice.release.xcconfig"; sourceTree = "<group>"; };
 		8184F28272950AF22C09B1779E7C9682 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		8376B5AE665A6E33EA63C7909CBB66C7 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		8972E003F8D160828B3E053A6F695E1A /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8C2201B1236DEA715AB7419ABFD6CE18 /* Pods-BitcoinPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPrice.release.xcconfig"; sourceTree = "<group>"; };
+		8FC56424EB8CA2BE3E12135824B45AC3 /* Pods-CryptoPrice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoPrice-umbrella.h"; sourceTree = "<group>"; };
 		9131F91A4D7DE09E2C50883D0BC2D5DA /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		956B3C5F9A42D9CEA40F9151AB6FCD3F /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
-		99302538A80F741A7FBCC2AF65B4631E /* Pods-BitcoinPrice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitcoinPrice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97A6927A7379E14882B6548F4407A80D /* Pods-CryptoPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoPrice.debug.xcconfig"; sourceTree = "<group>"; };
 		9A8B08C11BAE29B1644A7F5B2431BFC7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		9AD6716E3F02A04769981527E220E7B2 /* Protector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protector.swift; path = Source/Protector.swift; sourceTree = "<group>"; };
 		9B5CD0B8D343D4125B98C7DC810F4DF0 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		9BDAA4A8B413A07233A6E45DE35605DE /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BF22C19E948E682EEC77D095CA8619 /* Pods-CryptoPrice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoPrice-acknowledgements.plist"; sourceTree = "<group>"; };
 		A30C91A9BD36D073194CD28D4A3FA777 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		A3128BBF8F7F13A98C1E8C8B2CF32D54 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		A3F13A6BFC7CB9C4280A648BEB21A695 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
@@ -126,12 +127,11 @@
 		DB477CF40832D7A45C676E3471D8B061 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		DBA9719524A4342545923CBD54AD0BCA /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		DF422C98620D2AB70FFA1D7A2AD33E3A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CBB3F1BB1E267768E55FA72136899C /* Pods-BitcoinPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPrice.debug.xcconfig"; sourceTree = "<group>"; };
-		EBB80B58DB89AD1033BB8E91F1DA9049 /* Pods-BitcoinPrice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitcoinPrice-umbrella.h"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD6A533D7AC55A1315EB2088830CC9 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		F59CDEEB31107E999811F597AA0DAC82 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		F869B67F2A5B649F31A8A441428A71AE /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		FAE1EDFAECECCBA8ED375D1488ABBDF7 /* Pods-CryptoPrice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoPrice-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,11 +144,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACD99821FF3B83DA13F5F6942E641308 /* Frameworks */ = {
+		963C4A8C8433843482BF2FFB1F4213A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF188EB39E163254F230D2B278130B4 /* Foundation.framework in Frameworks */,
+				30887B79FF16AF1890949BA487E42DA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,33 +163,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		093D5ACD28E2AFC861A227E067FD28C3 /* Pods-BitcoinPrice */ = {
-			isa = PBXGroup;
-			children = (
-				7923C3BFE389B5E68BB331B2D12C7CCF /* Pods-BitcoinPrice.modulemap */,
-				99302538A80F741A7FBCC2AF65B4631E /* Pods-BitcoinPrice-acknowledgements.markdown */,
-				713A63D269D06F9D00B0915C362129D3 /* Pods-BitcoinPrice-acknowledgements.plist */,
-				4B4BB8B164AF01D66B3BCFA9B657AFDB /* Pods-BitcoinPrice-dummy.m */,
-				7AE6069AB4DBB8687E8CFC4FAFD423C9 /* Pods-BitcoinPrice-frameworks.sh */,
-				37087DB6539BF2E75AEBF94A2597D0AE /* Pods-BitcoinPrice-Info.plist */,
-				EBB80B58DB89AD1033BB8E91F1DA9049 /* Pods-BitcoinPrice-umbrella.h */,
-				E9CBB3F1BB1E267768E55FA72136899C /* Pods-BitcoinPrice.debug.xcconfig */,
-				8C2201B1236DEA715AB7419ABFD6CE18 /* Pods-BitcoinPrice.release.xcconfig */,
-			);
-			name = "Pods-BitcoinPrice";
-			path = "Target Support Files/Pods-BitcoinPrice";
-			sourceTree = "<group>";
-		};
-		0E3462BD052E18DEB2F5454F4AE447E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				49B403C9F293325E7CBEFC7D3E531535 /* Pods_BitcoinPrice.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +177,35 @@
 				9A8B08C11BAE29B1644A7F5B2431BFC7 /* SwiftyJSON.swift */,
 				C3E2CA0C9F7DE096E38E55638C8102B4 /* Support Files */,
 			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		4F2F7A5B28F3B21D612CB73AC4A0E9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				34ECDDFABD5DA3DF964ADC446E98E47B /* Pods_CryptoPrice.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B79AA810CC27C36EF713451A4E0342 /* Pods-CryptoPrice */ = {
+			isa = PBXGroup;
+			children = (
+				51CC6467B256FD3FD919514C899E51E4 /* Pods-CryptoPrice.modulemap */,
+				54E2AD6D817E5E3FC328594B8CE72A76 /* Pods-CryptoPrice-acknowledgements.markdown */,
+				A1BF22C19E948E682EEC77D095CA8619 /* Pods-CryptoPrice-acknowledgements.plist */,
+				6908AC1C88C53162C8D7869852AAFDB4 /* Pods-CryptoPrice-dummy.m */,
+				FAE1EDFAECECCBA8ED375D1488ABBDF7 /* Pods-CryptoPrice-frameworks.sh */,
+				162EDF068CFB641FACF90E6E6CAEBF84 /* Pods-CryptoPrice-Info.plist */,
+				8FC56424EB8CA2BE3E12135824B45AC3 /* Pods-CryptoPrice-umbrella.h */,
+				97A6927A7379E14882B6548F4407A80D /* Pods-CryptoPrice.debug.xcconfig */,
+				7F9CA33D45863C87E2174C3050DE0635 /* Pods-CryptoPrice.release.xcconfig */,
+			);
+			name = "Pods-CryptoPrice";
+			path = "Target Support Files/Pods-CryptoPrice";
 			sourceTree = "<group>";
 		};
 		71C529FB98A95FF2E1EAA264DBC1CA99 /* Pods */ = {
@@ -214,14 +215,6 @@
 				16C6AE742428A7EFFC225C34DCDA32F8 /* SwiftyJSON */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		8FE8E87EF877847389D12335C1521DC3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				093D5ACD28E2AFC861A227E067FD28C3 /* Pods-BitcoinPrice */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B8A9BD76405E315F59A6F388B68E88A9 /* Alamofire */ = {
@@ -261,6 +254,7 @@
 				A3F13A6BFC7CB9C4280A648BEB21A695 /* Validation.swift */,
 				D85315F44A5EBA5D8F92B79D91D694CF /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -285,8 +279,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				71C529FB98A95FF2E1EAA264DBC1CA99 /* Pods */,
-				0E3462BD052E18DEB2F5454F4AE447E8 /* Products */,
-				8FE8E87EF877847389D12335C1521DC3 /* Targets Support Files */,
+				4F2F7A5B28F3B21D612CB73AC4A0E9FF /* Products */,
+				E1E3D6BC557AEB1ABABC8C4DF672F3BE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,6 +299,14 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		E1E3D6BC557AEB1ABABC8C4DF672F3BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B79AA810CC27C36EF713451A4E0342 /* Pods-CryptoPrice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		E34DCC8E2CF86B8D72232914781A840D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,11 +319,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3523E1FAB44C5D8C0124A0258058D26C /* Headers */ = {
+		2D09DC2DDB2CE671E18B1B721EB52CE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1ADB7EE02C6F1C51916A1BAFCC2CCE /* Pods-BitcoinPrice-umbrella.h in Headers */,
+				6279B46DF69162A8F6F0FFFD606BBC68 /* Pods-CryptoPrice-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,24 +346,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		99D52810BA53007D18BFB6CB746D494E /* Pods-BitcoinPrice */ = {
+		897951AB311326CB518BD5E3BC187420 /* Pods-CryptoPrice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFF7725B7FC69B26AFAEBCF995C7088E /* Build configuration list for PBXNativeTarget "Pods-BitcoinPrice" */;
+			buildConfigurationList = 90F684588F7285C8117490CDF9C172F9 /* Build configuration list for PBXNativeTarget "Pods-CryptoPrice" */;
 			buildPhases = (
-				3523E1FAB44C5D8C0124A0258058D26C /* Headers */,
-				DD912E93A65358BCAE7F5D236318F7CA /* Sources */,
-				ACD99821FF3B83DA13F5F6942E641308 /* Frameworks */,
-				98C1AF14B8780578541BA592407D4F20 /* Resources */,
+				2D09DC2DDB2CE671E18B1B721EB52CE9 /* Headers */,
+				24B25C85FF770C2684EC0DA4DF391336 /* Sources */,
+				963C4A8C8433843482BF2FFB1F4213A5 /* Frameworks */,
+				280500307B69182C3F00F177599B5592 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				82710CFFF7CC1D195548DC511818F86E /* PBXTargetDependency */,
-				A196F779F0513178C813C31BC7FB0772 /* PBXTargetDependency */,
+				FACC7AB953876062BFE45F5E0D185764 /* PBXTargetDependency */,
+				E4AB23C0D22D240BF10C3191D389A3C6 /* PBXTargetDependency */,
 			);
-			name = "Pods-BitcoinPrice";
-			productName = "Pods-BitcoinPrice";
-			productReference = 49B403C9F293325E7CBEFC7D3E531535 /* Pods_BitcoinPrice.framework */;
+			name = "Pods-CryptoPrice";
+			productName = "Pods-CryptoPrice";
+			productReference = 34ECDDFABD5DA3DF964ADC446E98E47B /* Pods_CryptoPrice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -418,26 +420,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0E3462BD052E18DEB2F5454F4AE447E8 /* Products */;
+			productRefGroup = 4F2F7A5B28F3B21D612CB73AC4A0E9FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				99D52810BA53007D18BFB6CB746D494E /* Pods-BitcoinPrice */,
+				897951AB311326CB518BD5E3BC187420 /* Pods-CryptoPrice */,
 				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28FC0024B79C28A420D7C4FEBB9E3AEB /* Resources */ = {
+		280500307B69182C3F00F177599B5592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98C1AF14B8780578541BA592407D4F20 /* Resources */ = {
+		28FC0024B79C28A420D7C4FEBB9E3AEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,6 +462,14 @@
 			files = (
 				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
 				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B25C85FF770C2684EC0DA4DF391336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EC0F9E2971EF603076589EDB5AE8D1 /* Pods-CryptoPrice-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,28 +513,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD912E93A65358BCAE7F5D236318F7CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38C14E2487A589D3853895A1DEDF2AB8 /* Pods-BitcoinPrice-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		82710CFFF7CC1D195548DC511818F86E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 84657A0B25BF6FFB05AE211CC33DCC06 /* PBXContainerItemProxy */;
-		};
-		A196F779F0513178C813C31BC7FB0772 /* PBXTargetDependency */ = {
+		E4AB23C0D22D240BF10C3191D389A3C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
 			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = B455FFBF4905EC9763BD84188775483D /* PBXContainerItemProxy */;
+			targetProxy = 58E8BC2AB5CE0A00672F9639714EF601 /* PBXContainerItemProxy */;
+		};
+		FACC7AB953876062BFE45F5E0D185764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = FE6F15DD00333FF81F7D497565C127AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -625,9 +627,9 @@
 			};
 			name = Debug;
 		};
-		5BB0BBDB7656B81B1C5A2F59F06E0261 /* Release */ = {
+		796CEFDAB363020343F75F844BB58ABF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C2201B1236DEA715AB7419ABFD6CE18 /* Pods-BitcoinPrice.release.xcconfig */;
+			baseConfigurationReference = 7F9CA33D45863C87E2174C3050DE0635 /* Pods-CryptoPrice.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -641,12 +643,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoPrice/Pods-CryptoPrice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoPrice/Pods-CryptoPrice.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -712,7 +714,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
@@ -745,7 +747,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
@@ -761,9 +763,9 @@
 			};
 			name = Release;
 		};
-		EBFB0BA915948B1E0F3C61FE649D2BA2 /* Debug */ = {
+		BEC8BF44694050C5EC3F10FBCF7101DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9CBB3F1BB1E267768E55FA72136899C /* Pods-BitcoinPrice.debug.xcconfig */;
+			baseConfigurationReference = 97A6927A7379E14882B6548F4407A80D /* Pods-CryptoPrice.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -777,12 +779,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoPrice/Pods-CryptoPrice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoPrice/Pods-CryptoPrice.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -849,7 +851,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -885,11 +888,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFF7725B7FC69B26AFAEBCF995C7088E /* Build configuration list for PBXNativeTarget "Pods-BitcoinPrice" */ = {
+		90F684588F7285C8117490CDF9C172F9 /* Build configuration list for PBXNativeTarget "Pods-CryptoPrice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBFB0BA915948B1E0F3C61FE649D2BA2 /* Debug */,
-				5BB0BBDB7656B81B1C5A2F59F06E0261 /* Release */,
+				BEC8BF44694050C5EC3F10FBCF7101DC /* Debug */,
+				796CEFDAB363020343F75F844BB58ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
