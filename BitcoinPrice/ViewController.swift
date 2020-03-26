@@ -4,12 +4,19 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
+    let baseURL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
+    let headers: HTTPHeaders = [
+        "X-CMC_PRO_API_KEY": "00c88654-b4ed-42f6-93d0-55c0c6d4863e"
+    ]
+    
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     var finalURL = ""
+    
 
     @IBOutlet weak var bitcoinPriceLabel: UILabel!
     @IBOutlet weak var currencyPicker: UIPickerView!
@@ -35,44 +42,42 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     // what to do if row is chosen
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(currencyArray[row])
+        finalURL = baseURL
+        let params : [String : String] = ["symbol" : "BTC", "convert" : currencyArray[row]]
+        getPrice(url: finalURL, parameters: params)
     }
     // changing text color of picker
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
         return NSAttributedString(string: currencyArray[row], attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
     }
-    
-//    
-//    //MARK: - Networking
-//    /***************************************************************/
-//    
-//    func getWeatherData(url: String, parameters: [String : String]) {
-//        
-//        Alamofire.request(url, method: .get, parameters: parameters)
-//            .responseJSON { response in
-//                if response.result.isSuccess {
-//
-//                    print("Sucess! Got the weather data")
-//                    let weatherJSON : JSON = JSON(response.result.value!)
-//
-//                    self.updateWeatherData(json: weatherJSON)
-//
-//                } else {
-//                    print("Error: \(String(describing: response.result.error))")
-//                    self.bitcoinPriceLabel.text = "Connection Issues"
-//                }
-//            }
-//
-//    }
-//
-//    
-//    
+  
+    //MARK: - Networking
+    func getPrice(url: String, parameters : [String : String]) {
+        AF.request(url, parameters: parameters, headers: headers)
+            .responseJSON { response in
+//                debugPrint(response)
+                switch response.result {
+                case .success:
+                    print("Got price data")
+                    let priceJSON = JSON(response.value!)
+//                    print(priceJSON)
+                    let currency = parameters["convert"]
+                    let price = priceJSON["data"]["BTC"]["quote"][currency!]["price"].stringValue
+                    print(price)
+//                    self.updatePrice(json: priceJSON)
+                    
+                case let .failure(error):
+                print(error)
+                self.bitcoinPriceLabel.text = "Connection Issues"
+                }
+        }
+    }
 //    
 //    
 //    //MARK: - JSON Parsing
 //    /***************************************************************/
 //    
-//    func updateWeatherData(json : JSON) {
+//    func updatePrice(json : JSON) {
 //        
 //        if let tempResult = json["main"]["temp"].double {
 //        

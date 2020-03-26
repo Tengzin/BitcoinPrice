@@ -14,10 +14,14 @@
 		63A618301C53C381007AF001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A6182F1C53C381007AF001 /* Assets.xcassets */; };
 		63A618331C53C381007AF001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A618311C53C381007AF001 /* LaunchScreen.storyboard */; };
 		AD05C7C020EBD8B600915CD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD05C7BF20EBD8B600915CD8 /* README.md */; };
+		B37AB5E67FA99B19DA7A5C4E /* Pods_BitcoinPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB9D26676D5830651039243 /* Pods_BitcoinPrice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB9D26676D5830651039243 /* Pods_BitcoinPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9AE5D6ECF11B0003322A4C /* Pods-BitcoinPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinPrice.debug.xcconfig"; path = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice.debug.xcconfig"; sourceTree = "<group>"; };
 		2865E516242CECCA001E10DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		53C917E3CEB2A3E3DC929EF3 /* Pods-BitcoinPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinPrice.release.xcconfig"; path = "Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice.release.xcconfig"; sourceTree = "<group>"; };
 		63A618251C53C381007AF001 /* BitcoinPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A618281C53C381007AF001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A6182A1C53C381007AF001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,12 +37,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37AB5E67FA99B19DA7A5C4E /* Pods_BitcoinPrice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F1327171C475C5838C1B08B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D9AE5D6ECF11B0003322A4C /* Pods-BitcoinPrice.debug.xcconfig */,
+				53C917E3CEB2A3E3DC929EF3 /* Pods-BitcoinPrice.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		63A6181C1C53C381007AF001 = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +61,8 @@
 				AD05C7BF20EBD8B600915CD8 /* README.md */,
 				63A618271C53C381007AF001 /* BitcoinPrice */,
 				63A618261C53C381007AF001 /* Products */,
+				2F1327171C475C5838C1B08B /* Pods */,
+				995B16CEF27717232F799D8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +87,14 @@
 			path = BitcoinPrice;
 			sourceTree = "<group>";
 		};
+		995B16CEF27717232F799D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB9D26676D5830651039243 /* Pods_BitcoinPrice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A618371C53C381007AF001 /* Build configuration list for PBXNativeTarget "BitcoinPrice" */;
 			buildPhases = (
+				C6B4ABC988335946A7A1F58F /* [CP] Check Pods Manifest.lock */,
 				63A618211C53C381007AF001 /* Sources */,
 				63A618221C53C381007AF001 /* Frameworks */,
 				63A618231C53C381007AF001 /* Resources */,
+				9099212B09017F53FFB9504B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +165,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9099212B09017F53FFB9504B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitcoinPrice/Pods-BitcoinPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B4ABC988335946A7A1F58F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinPrice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63A618211C53C381007AF001 /* Sources */ = {
@@ -277,6 +349,7 @@
 		};
 		63A618381C53C381007AF001 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9AE5D6ECF11B0003322A4C /* Pods-BitcoinPrice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -292,6 +365,7 @@
 		};
 		63A618391C53C381007AF001 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C917E3CEB2A3E3DC929EF3 /* Pods-BitcoinPrice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
