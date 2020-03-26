@@ -16,11 +16,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     let symbolArray = ["$", "R$", "$", "¥", "€", "£", "$", "Rp", "₪", "₹", "¥", "$", "kr", "$", "zł", "lei", "₽", "kr", "$", "$", "R"]
-    let cryptoArray = ["BTC", "ETH", "XRP", "USDT", "BCH"]
-    let cryptoIconArray = ["bitcoin", "eth", "xrp", "usdt", "bch"]
+    let cryptoArray = ["BTC", "ETH", "XRP", "USDT", "BCH", "BSV", "LTC"]
+    let cryptoIconArray = ["bitcoin", "eth", "xrp", "usdt", "bch", "bsv", "ltc"]
     
     var currCrypto = "BTC"
-    var currCurrency = "AUD"
+    var currCurrency = "USD"
     var currSymbol = "$"
 
     @IBOutlet weak var bitcoinPriceLabel: UILabel!
@@ -34,6 +34,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         currencyPicker.dataSource = self
         cryptoPicker.delegate = self
         cryptoPicker.dataSource = self
+        currencyPicker.selectRow(currencyArray.count - 2, inComponent: 0, animated: true)
         let params : [String : String] = ["symbol" : currCrypto, "convert" : currCurrency]
         getPrice(url: baseURL, parameters: params)
     }
@@ -81,7 +82,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 //                debugPrint(response)
                 switch response.result {
                 case .success:
-                    print("Got price data")
+//                    print("Got price data")
                     let priceJSON = JSON(response.value!)
                     self.updatePrice(priceJSON: priceJSON, crypto: self.currCrypto, currency: self.currCurrency)
                 case let .failure(error):
@@ -95,7 +96,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func updatePrice(priceJSON : JSON, crypto : String, currency : String) {
         let numPrice = Double(priceJSON["data"][crypto]["quote"][currency]["price"].stringValue)!
         let price = currSymbol + String(format: "%.2f", numPrice)
-        print(price)
+//        print(price)
         self.bitcoinPriceLabel.text = price
     }
 }
